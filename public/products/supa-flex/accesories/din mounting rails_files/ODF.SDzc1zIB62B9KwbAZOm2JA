@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Art" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ff2100;
+      }
+    </style>
+  </defs>
+  <g id="App_Icon" data-name="App Icon">
+    <rect class="cls-1" width="32" height="32"/>
+    <path id="D" class="cls-2" d="m13.5368374,25.3684211h4.9263209V6.6315789h-4.9263209v18.7368421ZM6.3789469,2h12.4631605c4.0842071,0,6.7789457,2.4842122,6.7789457,6.3157895v14.9473684c0,3.284214-1.8105297,6.7368421-6.7789457,6.7368421H6.3789469V2Z"/>
+  </g>
+</svg>

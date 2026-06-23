@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0284c7;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0369a1;
+}
+
+/* Selection */
+
+::selection {
+  background: #0ea5e9;
+  color: white;
+}
+
+/* Container */
+
+.container-custom {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* Hero Gradient */
+
+.hero-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.45) 50%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+}
+
+/* Category Cards */
+
+.category-card {
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Brand Cards */
+
+.brand-card {
+  transition: all 0.3s ease;
+}
+
+.brand-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Buttons */
+
+.primary-btn {
+  background: #0284c7;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: #0369a1;
+}
+
+.secondary-btn {
+  border: 2px solid white;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.secondary-btn:hover {
+  background: white;
+  color: #0284c7;
+}
+
+/* Section Titles */
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.section-subtitle {
+  color: #64748b;
+  margin-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+  background: #0f172a;
+  color: #94a3b8;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+}
