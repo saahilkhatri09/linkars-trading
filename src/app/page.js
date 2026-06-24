@@ -63,10 +63,10 @@ description: "Blowers,MCBs, pilot lights,wring ducts,panel accessories and elect
 ];
 
 export default function Home() {
-return ( <main className="bg-white text-slate-900">
+return ( <main className="bg-white text-slate-1000">
 
   {/* HERO */}
-<section className="relative h-[850px] md:h-[650px]">
+<section className="relative h-[800px] md:h-[600px]">
     <Image
       src="/hero/industrial-banner-og.png"
       alt="Industrial Products"
@@ -94,15 +94,15 @@ return ( <main className="bg-white text-slate-900">
 
 <div className="flex flex-col sm:flex-row gap-4 mt-8">
 
-  <span className="bg-white/20 px-4 py-2 rounded-full">
+  <span className="bg-black/20 px-4 py-2 rounded-full">
     25+ Years Experience
   </span>
 
-  <span className="bg-white/20 px-4 py-2 rounded-full">
+  <span className="bg-black/20 px-4 py-2 rounded-full">
     Pan India Supply
   </span>
 
-  <span className="bg-white/20 px-4 py-2 rounded-full">
+  <span className="bg-black/20 px-4 py-2 rounded-full">
     Authorized Dealers
   </span>
 
