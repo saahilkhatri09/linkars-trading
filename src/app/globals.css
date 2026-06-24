@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+
+/* =========================
+   GLOBAL SETTINGS
+========================= */
+
 html {
   scroll-behavior: smooth;
 }
@@ -21,7 +26,10 @@ img {
   height: auto;
 }
 
-/* Custom Scrollbar */
+
+/* =========================
+   CUSTOM SCROLLBAR
+========================= */
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -40,14 +48,20 @@ img {
   background: #0369a1;
 }
 
-/* Selection */
+
+/* =========================
+   TEXT SELECTION
+========================= */
 
 ::selection {
   background: #0ea5e9;
   color: white;
 }
 
-/* Container */
+
+/* =========================
+   CONTAINER
+========================= */
 
 .container-custom {
   max-width: 1400px;
@@ -56,28 +70,49 @@ img {
   padding-right: 24px;
 }
 
-/* Hero Gradient */
+
+/* =========================
+   HERO SECTION
+========================= */
 
 .hero {
   position: relative;
-  background-image: url("industrial-banner-og.png");
+  min-height: 600px;
+
+  background-image: url("/hero/industrial-banner-og.png");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
 }
+
+
+/* Dark overlay for text visibility */
 
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+
+  background: rgba(0, 0, 0, 0.50);
+
+  z-index: 0;
 }
+
+
+/* Hero Content */
 
 .hero-content {
   position: relative;
   z-index: 1;
 }
 
-/* Category Cards */
+
+/* =========================
+   CATEGORY CARDS
+========================= */
 
 .category-card {
   transition: all 0.3s ease;
@@ -87,7 +122,10 @@ img {
   transform: translateY(-8px);
 }
 
-/* Brand Cards */
+
+/* =========================
+   BRAND CARDS
+========================= */
 
 .brand-card {
   transition: all 0.3s ease;
@@ -97,7 +135,10 @@ img {
   transform: translateY(-6px);
 }
 
-/* Buttons */
+
+/* =========================
+   BUTTONS
+========================= */
 
 .primary-btn {
   background: #0284c7;
@@ -111,6 +152,7 @@ img {
 .primary-btn:hover {
   background: #0369a1;
 }
+
 
 .secondary-btn {
   border: 2px solid white;
@@ -126,7 +168,10 @@ img {
   color: #0284c7;
 }
 
-/* Section Titles */
+
+/* =========================
+   SECTION TITLES
+========================= */
 
 .section-title {
   font-size: 3rem;
@@ -139,17 +184,34 @@ img {
   margin-top: 10px;
 }
 
-/* Footer */
+
+/* =========================
+   FOOTER
+========================= */
 
 .footer {
   background: #0f172a;
   color: #94a3b8;
 }
 
-/* Responsive */
+
+/* =========================
+   MOBILE
+========================= */
 
 @media (max-width: 768px) {
+
+  .hero {
+    min-height: 520px;
+    background-position: center;
+  }
+
+  .hero::before {
+    background: rgba(0, 0, 0, 0.65);
+  }
+
   .section-title {
     font-size: 2rem;
   }
+
 }
