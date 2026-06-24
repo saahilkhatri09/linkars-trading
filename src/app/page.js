@@ -74,7 +74,7 @@ return ( <main className="bg-white text-slate-900">
       className="object-cover"
     />
 
-    <div className="absolute inset-0 bg-black/1" />
+    <div className="absolute inset-0 bg-black/4" />
 
     <div className="absolute inset-0 flex items-center pt-20 md:pt-0">
   <div className="max-w-3xl px-4 md:px-0 md:pl-12 text-white">
