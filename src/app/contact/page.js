@@ -51,6 +51,8 @@ export default function Contact() {
             className="text-sky-600 break-all"
           >
             linkars2007@rediffmail.com
+
+            linkars2007@gmail.com
           </a>
 
         </div>
