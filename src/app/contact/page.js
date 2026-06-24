@@ -50,7 +50,15 @@ export default function Contact() {
             href="mailto:linkars2007@rediffmail.com"
             className="text-sky-600 break-all"
           >
-            linkars2007@rediffmail.com
+            <p>
+           linkars2007@rediffmail.com
+          </p>
+
+          <p>
+            linkars2007@gmail.com
+          </p>
+
+
 
             linkars2007@gmail.com
           </a>
