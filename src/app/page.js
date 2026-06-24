@@ -15,7 +15,7 @@ description: "Motorized, electronic, flameproof and emergency sirens.",
 id: 2,
 name: "Warning Lights",
 slug: "warning-lights",
-image: "/categories/Warning-lights.jpg",
+image: "/categories/warning-lights.jpg",
 description: "LED strobes, aviation lights, revolving lights and flashers.",
 },
 {
@@ -68,7 +68,7 @@ return ( <main className="bg-white text-slate-900">
   {/* HERO */}
 <section className="relative h-[850px] md:h-[650px]">
     <Image
-      src="/hero/industrial-bannerog2.png"
+      src="/hero/industrial-banner-og.png"
       alt="Industrial Products"
       fill
       className="object-cover"
