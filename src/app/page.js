@@ -317,7 +317,7 @@ return ( <main className="bg-white text-slate-900">
 
         <div className="bg-white rounded-xl p-3 md:p-6 shadow text-center">
           <Image
-            src="/logo/kheraj-logo.webp"
+            src="/logo/kheraj-logo2.png"
             alt="Kheraj"
             width={240}
             height={180}
