@@ -58,9 +58,6 @@ export default function Contact() {
             linkars2007@gmail.com
           </p>
 
-
-
-            linkars2007@gmail.com
           </a>
 
         </div>
