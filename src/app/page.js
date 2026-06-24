@@ -74,7 +74,7 @@ return ( <main className="bg-white text-slate-1000">
       className="object-cover"
     />
 
-    <div className="absolute inset-0 bg-black/4" />
+    <div className="absolute inset-0 bg-black/70" />
 
     <div className="absolute inset-0 flex items-center pt-20 md:pt-0">
   <div className="max-w-3xl px-4 md:px-0 md:pl-12 text-white">
@@ -94,15 +94,15 @@ return ( <main className="bg-white text-slate-1000">
 
 <div className="flex flex-col sm:flex-row gap-4 mt-8">
 
-  <span className="bg-black/20 px-4 py-2 rounded-full">
+  <span className="bg-white/20 backdrop-blur-md border border-white/30 text-white px-6 py-3 rounded-full font-semibold shadow-lg">
     25+ Years Experience
   </span>
 
-  <span className="bg-black/20 px-4 py-2 rounded-full">
+  <span className="bg-white/20 backdrop-blur-md border border-white/30 text-white px-6 py-3 rounded-full font-semibold shadow-lg">
     Pan India Supply
   </span>
 
-  <span className="bg-black/20 px-4 py-2 rounded-full">
+  <span className="bg-white/20 backdrop-blur-md border border-white/30 text-white px-6 py-3 rounded-full font-semibold shadow-lg">
     Authorized Dealers
   </span>
 
